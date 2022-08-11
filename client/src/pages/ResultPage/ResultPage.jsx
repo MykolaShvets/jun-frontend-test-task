@@ -17,7 +17,7 @@ export const ResultPage = () => {
             <h3 className={finishedHorses[1].name === yourHorse ? 'silver your-horse' : 'silver'}>{finishedHorses[1].name} (Time: {finishedHorses[1].time})</h3>
             <h4 className={finishedHorses[2].name === yourHorse ? 'bronze your-horse' : 'bronze'}>{finishedHorses[2].name} (Time: {finishedHorses[2].time})</h4>
             {finishedHorses
-              .slice(2, 5)
+              .slice(3, 6)
               .map(horse => <p key={horse.name + 3} className={horse.name === yourHorse && 'your-horse'}>{horse.name} (Time: {horse.time})</p>)}
           </div>
           <a href='/' className='again__btn'>Try Again!!!</a>
