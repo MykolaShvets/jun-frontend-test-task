@@ -1,0 +1,16 @@
+.race__info_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.finished{
+  background: lightcyan;
+}
+
+.race__info_box span {
+  margin-right: 10px;
+  font-weight: 600;
+}

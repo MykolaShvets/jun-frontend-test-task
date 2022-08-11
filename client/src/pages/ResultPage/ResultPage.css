@@ -1,0 +1,42 @@
+.result__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gold {
+  background: gold;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.silver {
+  background: silver;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.bronze {
+  background: #cd7f32;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.your-horse {
+  border: 2px solid #000;
+}
+
+.again__btn{
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 30px;
+  transition: all ease .5s;
+}
+
+.again__btn:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.113);
+}

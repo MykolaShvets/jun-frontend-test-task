@@ -1,0 +1,36 @@
+.bet__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bet__selector_list {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.bet__your-horse span{
+  font-size: 32px;
+  font-weight: 800;
+  color: darkred;
+}
+
+.start__btn{
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 30px;
+  transition: all ease .5s;
+}
+
+.start__btn:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.113);
+}

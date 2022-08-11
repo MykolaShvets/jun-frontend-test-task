@@ -1,0 +1,29 @@
+.race__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info__box {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 20px 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.result__btn{
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 30px;
+  transition: all ease .5s;
+}
+
+.result__btn:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.113);
+}
